@@ -38,7 +38,7 @@ if(isset($_SESSION["user"]))
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href="../../index2.html"><b>School</b>Gradebook</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -146,11 +146,11 @@ if(isset($_SESSION["user"]))
 
 
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        <a href="../scripts/forgot-password.php">I forgot my password</a>
       </p>
-      <p class="mb-0">
+<!--      <p class="mb-0">
         <a href="register.php" class="text-center">Register a new membership</a>
-      </p>
+      </p>--->
     </div>
     <!-- /.login-card-body -->
   </div>
