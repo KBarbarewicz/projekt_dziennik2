@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:  linear-gradient(to bottom right, green, black);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delGradeContainer{
+padding:10px;}
+
+.historyContainer{
+  padding: 10px;
+}
+
+.adminContainer{
+  padding: 10px;
+}
+
+.registerContainer{
+  padding: 10px;
+}
+
+.historyContainer{
+padding: 10px;}
+
+.logoutBtn{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+    border: 2px solid white;
+}
+
+.logoutBtn:hover{
+    background-color: rgb(6, 6, 126);
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: helvetica;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+table, tr, th, td{  
+padding: 10px;
+ width: 30%;
+ height: 5%;
+ background-color: white;
+ outline: 5px black solid;
+ padding: 10px;
+ text-align: center;
+ color: black; 
+}
+
+td{
+    
+}
+
+
+.tableHeaders{
+    font-size: 40px;
+    color: black;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+
+
+.tableElement{
+    font-size: 35px;
+    color: black;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.delGradeBtn{
+	background-color: red;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+    border: 2px solid white;
+}
+
+.delGradeBtn:hover{
+	background-color: rgb(122, 7, 7) ;
+}
+
+.adminBtn{
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+    border: 2px solid white;
+}
+
+.adminBtn:hover{
+    background-color: rgb(122, 7, 7) ;
+}
+
+.registerBtn{
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+    border: 2px solid white;
+}
+
+.registerBtn:hover{
+    background-color: rgb(122, 7, 7) ;
+}
+
+.backBtn{
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+    border: 2px solid white;
+}
+
+.backBtn:hover{
+    background-color: rgb(122, 7, 7) ;
+}
+
+.historyBtn{
+background-color: red;
+    color: white;
+    font-weight: 900;
+    font-family: helvetica;
+border: 2px solid white;}
+
+.historyBtn:hover{
+background-color: rgb(122, 7, 7) ;
+}
+
+.submitBtn{
+
+}
+
+.submitBtn:hover{
+
+}
+
+.gradeText{
+ position: relative;
+ /* https://stackoverflow.com/questions/23556364/how-to-convert-columns-to-rows-using-css */
+}
