@@ -31,7 +31,7 @@ if (!isset($_SESSION["user"]))
   require_once "../scripts/database.php";
   $sql = "SELECT * FROM teacher;";
   $result = $conn->query($sql);
-  echo "TEACHERS";
+  echo '<span style="color:#AFA;text-align:center;"><br>TEACHERS</br></span>';
   while($user = $result->fetch_assoc()){
     echo <<< TABLEUSERS
       <tr>
@@ -42,7 +42,7 @@ if (!isset($_SESSION["user"]))
 TABLEUSERS;
   }
   echo "</table>";
-  echo "STUDENTS";
+  echo '<span style="color:#AFA;text-align:center;"><br>STUDENTS</br></span>';
 echo '<table>';
 echo '<tr>';
 echo '<th>Name</th>';
